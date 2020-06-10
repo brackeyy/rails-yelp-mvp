@@ -1,1 +1,9 @@
 <h1>Here are all the Restaurants 👀:</h1>
+<br>
+<% @restaurants.each do |r| %>
+<p><strong>ID</strong>: <%= r.id %></p>
+<p><strong>Name</strong>: <%= r.name %></p>
+<p><strong>Address</strong>: <%= r.address %></p>
+<p><strong>Category</strong>: <%= r.category %></p>
+<br>
+<% end %>
