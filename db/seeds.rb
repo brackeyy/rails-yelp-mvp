@@ -11,27 +11,27 @@ restaurants = Restaurant.create([{
     name: "Alpha",
     address: "First Road",
     phone_number: "01 23 34 45 56",
-    category: "Chinese 🇨🇳"
+    category: "Chinese"
   }, {
     name: "Beta",
     address: "Second Road",
     phone_number: "11 23 34 45 56",
-    category: "Italian 🇮🇹"
+    category: "Italian"
   }, {
     name: "Gamma",
     address: "Third Road",
     phone_number: "21 23 34 45 56",
-    category: "Japanese 🇯🇵"
+    category: "Japanese"
   }, {
     name: "Delta",
     address: "Fourth Road",
     phone_number: "31 23 34 45 56",
-    category: "French 🇫🇷"
+    category: "French"
   }, {
     name: "Epsilon",
     address: "Fifth Road",
     phone_number: "41 23 34 45 56",
-    category: "Belgian 🇧🇪"
+    category: "Belgian"
   }
  ])
 
